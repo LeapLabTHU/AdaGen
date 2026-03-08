@@ -1,0 +1,13 @@
+model_family: maskgit
+action_keys: [manual_gen_ratios, manual_temp, manual_samp_temp, manual_cfg]
+
+state_dict_path: assets/backbones/MaskGIT-L.pth
+
+gen_steps: 16
+cfg_init: 1.0
+action_smooth: 0.8
+
+temp_init: 1.0
+manual_samp_temp_init: 1.0
+
+test_bsz: 128

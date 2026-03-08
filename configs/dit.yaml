@@ -1,0 +1,11 @@
+model_family: dit
+action_keys: [timesteps, manual_cfg]
+
+state_dict_path: assets/backbones/DiT-XL-2-256x256.pt
+dit_model: DiT-XL/2
+
+gen_steps: 16
+cfg_init: 1.0
+action_smooth: 0.4
+
+test_bsz: 128

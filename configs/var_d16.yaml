@@ -1,0 +1,16 @@
+model_family: var
+action_keys: [cfg, top_k, top_p, manual_samp_temp]
+
+var_state_dict_path: assets/backbones/var_d16.pth
+vae_state_dict_path: assets/vae_ch160v4096z32.pth
+model_depth: 16
+
+gen_steps: 10
+cfg_init: 1.5
+action_smooth: 0.0
+
+topk: 900
+topp: 0.96
+manual_samp_temp_init: 1.0
+
+test_bsz: 125
