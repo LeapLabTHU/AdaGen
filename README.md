@@ -19,7 +19,7 @@
     Tsinghua University &emsp; Alibaba Group
 </p>
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.06993-b31b1b.svg)](https://arxiv.org/abs/2603.06993)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
